@@ -11,7 +11,7 @@ export type JobItem = {
 
 export function useJenkins() {
     const jkToken = useStorage('jkToken', '');
-    const jkUser = useStorage('jkUser', 'admin');
+    const jkUser = useStorage('jkUser', '');
     const jkHost = useStorage('jkHost', '');
     const getJobs = async (): Promise<JobItem[]> => {
         const host = toValue(jkHost);
