@@ -1,27 +1,24 @@
 <script setup lang="ts">
 
-const props = withDefaults(defineProps<{
-
-}>(), {
-});
-
-const host = ref<string>("")
-
-onMounted(() => {
-    host.value = window.localStorage.getItem("jkHost") || "";
-})
-
-watch(host, () => {
-    window.localStorage.setItem("jkHost", toValue(host));
-});
+const jkToken = useStorage('jkToken', '');
+const jkUser = useStorage('jkUser', '');
+const jkHost = useStorage('jkHost', '');
 
 </script>
 <template>
-    <div>
+    <div class=" space-y-3 ">
         <UFormField label="Jenkins Host">
-            <UInput v-model="host" class=" w-full " />
+            <UInput v-model="jkHost" class=" w-full " />
+        </UFormField>
+
+        <UFormField label="User Name (use for build)">
+            <UInput v-model="jkUser" class=" w-full " />
+        </UFormField>
+
+        <UFormField label="Api Token (use for build)">
+            <UInput v-model="jkToken" class=" w-full " />
         </UFormField>
     </div>
 
-    <RouterLinkUp :disabled="!host" />
+    <RouterLinkUp :disabled="!jkHost" />
 </template>

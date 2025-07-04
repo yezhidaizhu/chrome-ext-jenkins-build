@@ -5,7 +5,7 @@
     <div class="flex gap-2 items-center">
       <!-- <img src="@assets/logo.png" alt="logo" class="h-8 w-auto" /> -->
       <h1 class="font-semibold text-primary text-xl ">
-        Jenkens Jobs
+        Jenkins Jobs
       </h1>
     </div>
     <div class="flex gap-2 justify-center">

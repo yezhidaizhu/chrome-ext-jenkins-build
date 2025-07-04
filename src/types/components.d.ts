@@ -26,6 +26,8 @@ declare module 'vue' {
     UFormField: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/FormField.vue')['default']
     UInput: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/Input.vue')['default']
     ULinkBase: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/LinkBase.vue')['default']
+    UModal: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/Modal.vue')['default']
+    UPopover: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/Popover.vue')['default']
     USwitch: typeof import('./../../node_modules/.pnpm/@nuxt+ui@3.1.1_@babel+parser@7.26.7_embla-carousel@8.6.0_typescript@5.8.3_valibot@1.1.0_types_rmxc4ttkqiis3u643ttjataioq/node_modules/@nuxt/ui/dist/runtime/components/Switch.vue')['default']
   }
 }
